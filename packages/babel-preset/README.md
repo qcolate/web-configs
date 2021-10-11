@@ -16,7 +16,7 @@ yarn add -D @qcolate/babel-preset
 ```javascript
 // babel.config.js
 module.exports = {
-  presets: ['qcolate'],
+  presets: ['@qcolate/qcolate'],
 };
 ```
 

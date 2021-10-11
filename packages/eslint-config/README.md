@@ -58,7 +58,7 @@ Create an .eslintrc.js in the root directory of your project, then copy the foll
 // .eslintrc.js
 module.exports = {
   extends: ['@qcolate/eslint-config'], // for React [default]
-  extends: ['@qcolate/eslint-config/nest'], // for Nest
+  extends: ['@qcolate/eslint-config/nest'], // for Nest.js
 };
 ```
 
