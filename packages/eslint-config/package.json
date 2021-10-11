@@ -1,0 +1,50 @@
+{
+  "name": "@qcolate/eslint-config",
+  "author": "Jason Feng <solidzoro@live.com>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "changelog-all": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0 -s",
+    "npm-publish": "git push --follow-tags origin master && npm publish",
+    "versionup": "standard-version -r patch",
+    "versionup:minor": "standard-version -r minor",
+    "versionup:major": "standard-version -r major",
+    "release": "yarn npm-publish"
+  },
+  "keywords": [
+    "eslint",
+    "airbnb",
+    "config",
+    "eslintconfig",
+    "javascript",
+    "styleguide",
+    "typescript"
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^25.0.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2"
+  }
+}

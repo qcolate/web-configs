@@ -1,0 +1,14 @@
+{
+  "name": "qcolate-web-configs",
+  "author": "Jason Feng <solidzoro@live.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}
