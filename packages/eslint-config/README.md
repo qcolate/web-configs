@@ -1,27 +1,23 @@
-# eslint-config-qcolate
+# `@qcolate/eslint-config`
 
-ESlint config for Qcolate
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE) [![npm version](https://badge.fury.io/js/%40qcolate%2Feslint-config.svg)](https://badge.fury.io/js/%40qcolate%2Feslint-config)
 
+Qcolate’s babel configs.
 
-<!--
-[![Build Status][build-img]][build-url]
--->
-[![NPM version][npm-img]][npm-url]
-[![License: MIT][mit-img]][mit-url]
-
-## Usage
-
-install config
+## Installation
 
 ```bash
-yarn add -D eslint eslint-config-qcolate
+yarn add -D eslint @qcolate/eslint-config
 ```
+
+
+## Usage
 
 install config and deps
 
 ```bash
 # React
-yarn add -D eslint eslint-config-qcolate \
+yarn add -D eslint @qcolate/eslint-config \
 eslint-config-airbnb \
 eslint-config-airbnb-base \
 eslint-config-airbnb-typescript \
@@ -42,7 +38,7 @@ prettier
 
 ```bash
 # Node
-yarn add -D eslint eslint-config-qcolate \
+yarn add -D eslint @qcolate/eslint-config \
 eslint-config-airbnb-base \
 eslint-config-airbnb-typescript \
 eslint-config-prettier \
@@ -61,22 +57,18 @@ Create an .eslintrc.js in the root directory of your project, then copy the foll
 ```javascript
 // .eslintrc.js
 module.exports = {
-  extends: ['qcolate'], // for React [default]
-  extends: ['qcolate'], // for Nest
+  extends: ['@qcolate/eslint-config'], // for React [default]
+  extends: ['@qcolate/eslint-config/nest'], // for Nest
 };
 ```
 
 
 ## License
 
-© [MIT][mit-url]
+MIT © [Qcolate][qcolate-url]
 
-<!-- badges -->
+<!-- link -->
 
-[mit-img]: https://img.shields.io/badge/License-MIT-blue.svg
+[qcolate-url]: https://qcolate.com
 
-[mit-url]: ./LICENSE
 
-[npm-img]: https://img.shields.io/npm/v/eslint-config-qcolate.svg
-
-[npm-url]: https://www.npmjs.com/package/eslint-config-qcolate
