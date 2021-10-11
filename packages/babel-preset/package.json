@@ -1,17 +1,19 @@
 {
   "name": "@qcolate/babel-preset",
-  "author": "solidzoro <solidzoro@live.com>",
   "version": "1.0.0",
   "license": "MIT",
+  "author": "solidzoro <solidzoro@live.com>",
   "main": "index.js",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "access": "public"
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qcolate/web-configs.git",
+    "directory": "packages/babel-preset"
+  },
+  "bugs": {
+    "url": "https://github.com/qcolate/web-configs/issues"
   },
   "scripts": {
     "changelog-all": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0 -s",
