@@ -5,7 +5,8 @@
   "author": "Jason Feng <solidzoro@live.com>",
   "main": "index.js",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "@qcolate:registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
