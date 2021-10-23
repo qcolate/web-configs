@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/qcolate/web-configs/compare/@qcolate/babel-preset@1.0.2...@qcolate/babel-preset@1.0.3) (2021-10-23)
+
+
+### Bug Fixes
+
+* fixed eslint deps ([87a57db](https://github.com/qcolate/web-configs/commit/87a57db08e86479d062d50648ad439ca6eb15423))
+
+
+
+
+
 ## [1.0.2](https://github.com/qcolate/web-configs/compare/@qcolate/babel-preset@1.0.1...@qcolate/babel-preset@1.0.2) (2021-10-11)
 
 **Note:** Version bump only for package @qcolate/babel-preset

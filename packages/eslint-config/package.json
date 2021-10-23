@@ -1,6 +1,6 @@
 {
   "name": "@qcolate/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": "Jason Feng <solidzoro@live.com>",
   "main": "index.js",
