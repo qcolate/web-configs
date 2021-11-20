@@ -10,7 +10,8 @@
     "versionup": "lerna version patch --conventional-commits",
     "versionup:minor": "lerna version minor --conventional-commits",
     "versionup:major": "lerna version major --conventional-commits",
-    "linkall": "lerna exec -- yarn link"
+    "linkall": "lerna exec -- yarn link",
+    "release": "lerna publish from-git"
   },
   "devDependencies": {},
   "dependencies": {
