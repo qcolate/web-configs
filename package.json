@@ -17,6 +17,8 @@
     "release-all": "yarn release-babel && yarn release-eslint",
     "release": "lerna publish from-git"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
   "dependencies": {}
 }
