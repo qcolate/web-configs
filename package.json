@@ -6,6 +6,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "versionup": "lerna version patch --conventional-commits",
