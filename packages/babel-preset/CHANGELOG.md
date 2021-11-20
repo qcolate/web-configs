@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/qcolate/web-configs/compare/@qcolate/babel-preset@1.0.3...@qcolate/babel-preset@1.1.0) (2021-11-20)
+
+
+### Features
+
+* update eslint to v8.0.0 ([3d47fb8](https://github.com/qcolate/web-configs/commit/3d47fb8dbada4b2d72b9236907793a5303a44d09))
+
+
+
+
+
 ## [1.0.3](https://github.com/qcolate/web-configs/compare/@qcolate/babel-preset@1.0.2...@qcolate/babel-preset@1.0.3) (2021-10-23)
 
 
