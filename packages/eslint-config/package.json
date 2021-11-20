@@ -21,7 +21,8 @@
     "versionup": "standard-version -r patch",
     "versionup:minor": "standard-version -r minor",
     "versionup:major": "standard-version -r major",
-    "release": "yarn npm-publish --access public"
+    "release": "yarn publish-npm",
+    "publish-npm": "npm publish --access public"
   },
   "keywords": [
     "eslint",
