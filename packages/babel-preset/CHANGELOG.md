@@ -1,6 +1,15 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.2.0](https://github.com/qcolate/web-configs/compare/@qcolate/babel-preset@1.1.0...@qcolate/babel-preset@1.2.0) (2021-11-20)
+
+**Note:** Version bump only for package @qcolate/babel-preset
+
+
+
+
 
 # [1.1.0](https://github.com/qcolate/web-configs/compare/@qcolate/babel-preset@1.0.3...@qcolate/babel-preset@1.1.0) (2021-11-20)
 

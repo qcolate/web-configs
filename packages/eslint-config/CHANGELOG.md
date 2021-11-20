@@ -1,6 +1,15 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.2.0](https://github.com/qcolate/web-configs/compare/@qcolate/eslint-config@1.1.0...@qcolate/eslint-config@1.2.0) (2021-11-20)
+
+**Note:** Version bump only for package @qcolate/eslint-config
+
+
+
+
 
 # [1.1.0](https://github.com/qcolate/web-configs/compare/@qcolate/eslint-config@1.0.3...@qcolate/eslint-config@1.1.0) (2021-11-20)
 
