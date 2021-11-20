@@ -1,8 +1,9 @@
 # Web Configs
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-
 This repository contains common configurations for building web apps at [Qcolate][qcolate-url].
+
+[![license-badge]](./LICENSE)
+
 
 ## Usage
 
@@ -19,3 +20,5 @@ This repo is managed as a monorepo that is composed of many npm packages, where 
 <!-- link -->
 
 [qcolate-url]: https://qcolate.com
+
+[license-badge]: https://img.shields.io/badge/License-MIT-green.svg
