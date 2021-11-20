@@ -50,7 +50,6 @@ module.exports = {
     //
     'import/named': 0,
     'import/prefer-default-export': 0,
-    'import/no-mutable-exports': 1, // for mobx displayName by `babel-plugin-add-react-displayname`
     'import/extensions': [
       2,
       'ignorePackages',

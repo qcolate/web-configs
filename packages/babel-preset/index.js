@@ -42,7 +42,6 @@ module.exports = (api, options = {}) => {
       require('@babel/preset-react'),
       {
         development: __DEV__,
-        // will use the native built-in instead of trying to polyfill behavior for any plugins that require one.
         useBuiltIns: true,
       },
     ],
