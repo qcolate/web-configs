@@ -1,9 +1,11 @@
-# Web Configs
+# Qcolate Web Configs
 
-This repository contains common configurations for building web apps at [Qcolate][qcolate-url].
 
 [![license-badge]](./LICENSE)
 
+## Description
+
+This repository contains common configurations for building web apps at [Qcolate][qcolate-url].
 
 ## Usage
 
@@ -13,12 +15,21 @@ This repo is managed as a monorepo that is composed of many npm packages, where 
 
 | Name | NPM |
 | ------- | --- |
-| [babel-preset](packages/babel-preset) | [![npm version](https://badge.fury.io/js/%40qcolate%2Fbabel-preset.svg)](https://badge.fury.io/js/%40qcolate%2Fbabel-preset) |
-| [eslint-config](packages/eslint-config) | [![npm version](https://badge.fury.io/js/%40qcolate%2Feslint-config.svg)](https://badge.fury.io/js/%40qcolate%2Feslint-config) |
+| [babel-preset](packages/babel-preset) | [![npm version][babel-version-badge-svg]][babel-version-badge-url] |
+| [eslint-config](packages/eslint-config) | [![npm version][eslint-version-badge-svg]][eslint-version-badge-url] |
 
 
 <!-- link -->
 
 [qcolate-url]: https://qcolate.com
 
+
 [license-badge]: https://img.shields.io/badge/License-MIT-green.svg
+
+[eslint-version-badge-svg]: https://badge.fury.io/js/%40qcolate%2Feslint-config.svg
+
+[eslint-version-badge-url]: https://badge.fury.io/js/%40qcolate%2Feslint-config
+
+[babel-version-badge-svg]: https://badge.fury.io/js/%40qcolate%2Fbabel-preset.svg
+
+[babel-version-badge-url]: https://badge.fury.io/js/%40qcolate%2Fbabel-preset

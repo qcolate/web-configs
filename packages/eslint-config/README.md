@@ -1,8 +1,7 @@
-# `@qcolate/eslint-config`
+# Qcolate Eslint Configs
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE) [![npm version](https://badge.fury.io/js/%40qcolate%2Feslint-config.svg)](https://badge.fury.io/js/%40qcolate%2Feslint-config)
+[![VERSION][version-badge-svg]][version-badge-url] [![LICENSE][license-badge-svg]](./LICENSE)
 
-Qcolate’s babel configs.
 
 ## Installation
 
@@ -71,4 +70,9 @@ MIT © [Qcolate][qcolate-url]
 
 [qcolate-url]: https://qcolate.com
 
+[license-badge-svg]: https://img.shields.io/badge/License-MIT-green.svg
+
+[version-badge-svg]: https://badge.fury.io/js/%40qcolate%2Feslint-config.svg
+
+[version-badge-url]: https://badge.fury.io/js/%40qcolate%2Feslint-config
 
