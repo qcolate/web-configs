@@ -5,6 +5,7 @@
   "author": "solidzoro <solidzoro@live.com>",
   "main": "index.js",
   "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "repository": {
