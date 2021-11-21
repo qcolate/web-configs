@@ -1,4 +1,4 @@
-# Qcolate Eslint Configs
+# Qcolate Eslint Config
 
 [![VERSION][version-badge-svg]][version-badge-url] [![LICENSE][license-badge-svg]](./LICENSE)
 

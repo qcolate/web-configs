@@ -1,11 +1,12 @@
 {
   "name": "@qcolate/babel-preset",
+  "description": "Qcolate Babel Preset",
   "version": "1.2.0",
   "license": "MIT",
   "author": "solidzoro <solidzoro@live.com>",
   "main": "index.js",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
+    "@qcolate:registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "repository": {
