@@ -15,8 +15,8 @@ This repo is managed as a monorepo that is composed of many npm packages, where 
 
 | Name | NPM |
 | ------- | --- |
-| [babel-preset](packages/babel-preset) | [![npm version][babel-version-badge-svg]][babel-version-badge-url] |
-| [eslint-config](packages/eslint-config) | [![npm version][eslint-version-badge-svg]][eslint-version-badge-url] |
+| [babel-preset](babel-preset) | [![npm version][babel-version-badge-svg]][babel-version-badge-url] |
+| [eslint-config](eslint-config) | [![npm version][eslint-version-badge-svg]][eslint-version-badge-url] |
 
 
 <!-- link -->
