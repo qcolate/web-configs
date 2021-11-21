@@ -2,6 +2,7 @@
   "name": "qcolate-web-configs",
   "author": "Jason Feng <solidzoro@live.com>",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "release-babel": "cd ./babel-preset && npm publish --access=public",
     "release-eslint": "cd ./eslint-config && npm publish --access=public",

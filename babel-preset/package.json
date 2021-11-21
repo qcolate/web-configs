@@ -5,6 +5,7 @@
   "license": "MIT",
   "author": "solidzoro <solidzoro@live.com>",
   "main": "index.js",
+  "private": false,
   "publishConfig": {
     "@qcolate:registry": "https://registry.npmjs.org/",
     "access": "public"
