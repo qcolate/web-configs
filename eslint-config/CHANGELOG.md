@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/qcolate/web-configs/compare/v1.3.0...v1.4.0) (2021-11-21)
+
+
+### Features
+
+* add publishConfig registry ([65f2dbd](https://github.com/qcolate/web-configs/commit/65f2dbd1d3f1e64a5468d1f51798b5366cc2c40a))
+
+
+### Chore
+
+* set npm registry ([ede24ca](https://github.com/qcolate/web-configs/commit/ede24caead0b4520164a5b60a0b03a894a24d0ac))
+
 ## 1.3.0 (2021-11-21)
 
 
