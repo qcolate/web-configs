@@ -1,7 +1,13 @@
-# Change Log
+# Changelog
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.3.0](https://github.com/qcolate/web-configs/compare/v1.4.0...v1.3.0) (2021-11-21)
+
+
+### Chore
+
+* private false ([f230016](https://github.com/qcolate/web-configs/commit/f2300167762237bb31ee1e705dadf64a53a3a72d))
 
 # [1.2.0](https://github.com/qcolate/web-configs/compare/@qcolate/babel-preset@1.1.0...@qcolate/babel-preset@1.2.0) (2021-11-20)
 
