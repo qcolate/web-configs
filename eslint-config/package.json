@@ -7,7 +7,6 @@
   "main": "index.js",
   "private": false,
   "publishConfig": {
-    "@qcolate:registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "repository": {
