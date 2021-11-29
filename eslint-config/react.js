@@ -1,4 +1,6 @@
 /* eslint-disable max-len */
+const baseRules = require('./_base.rules');
+
 const TS_EXTENSIONS = ['.ts', '.tsx', '.d.ts', '.json'];
 const JS_EXTENSIONS = ['.ts', '.tsx', '.d.ts', '.js', '.jsx', '.json'];
 
@@ -17,6 +19,15 @@ module.exports = {
       jsx: true,
     },
   },
+  env: {
+    browser: true,
+    es2021: true,
+    jest: true,
+  },
+  globals: {
+    __DEV__: true,
+    __PROD__: true,
+  },
   overrides: [
     {
       files: ['**/*.ts?(x)'],
@@ -30,15 +41,6 @@ module.exports = {
       },
     },
   ],
-  env: {
-    browser: true,
-    es2021: true,
-    jest: true,
-  },
-  globals: {
-    __DEV__: true,
-    __PROD__: true,
-  },
   settings: {
     react: {
       version: 'detect',
@@ -57,32 +59,9 @@ module.exports = {
   //
   // 0 (off) / 1 (warn) / 2 (error)
   rules: {
-    // common
-    'max-len': [2, 80],
-    'no-console': 0,
-    'no-underscore-dangle': 0,
-    'arrow-body-style': 0,
-    'no-restricted-syntax': [
-      2,
-      'ForInStatement',
-      'LabeledStatement',
-      'WithStatement',
-    ],
-    //
-    // import
-    'import/named': 0,
-    'import/prefer-default-export': 0,
-    'import/no-mutable-exports': 1, // for mobx displayName by `babel-plugin-add-react-displayname`
-    'import/extensions': [
-      2,
-      'ignorePackages',
-      {
-        ts: 'never',
-        tsx: 'never',
-        js: 'never',
-        jsx: 'never',
-      },
-    ],
+    ...baseRules.common,
+    ...baseRules.typescript,
+    ...baseRules.import,
     'import/order': [
       2,
       {
@@ -103,11 +82,8 @@ module.exports = {
     'react/require-default-props': 0,
     'react/no-unused-prop-types': 0,
     'react/prop-types': 0,
-    //
-    // ts
-    '@typescript-eslint/dot-notation': 0, // for className e.g. `styles['style-name']`
-    '@typescript-eslint/no-unused-vars': 0, // for debug temp vars
-    '@typescript-eslint/naming-convention': 0,
-    '@typescript-eslint/lines-between-class-members': 0,
+    'react/no-unused-class-component-methods': 0,
+    'react/no-unstable-nested-components': 0,
+    'react/function-component-definition': 0,
   },
 };

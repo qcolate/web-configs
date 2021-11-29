@@ -1,4 +1,6 @@
 /* eslint-disable max-len */
+const baseRules = require('./_base.rules');
+
 const EXTENSIONS = ['.ts', '.d.ts', '.js', '.json'];
 
 module.exports = {
@@ -36,44 +38,9 @@ module.exports = {
   //
   // 0 (off) / 1 (warn) / 2 (error)
   rules: {
-    'max-len': [2, 80],
-    'no-console': 0,
-    'no-underscore-dangle': 0,
-    'arrow-body-style': 0,
-    'no-restricted-syntax': [
-      2,
-      'ForInStatement',
-      'LabeledStatement',
-      'WithStatement',
-    ],
-    //
-    //
-    'import/named': 0,
-    'import/prefer-default-export': 0,
-    'import/extensions': [
-      2,
-      'ignorePackages',
-      {
-        ts: 'never',
-        tsx: 'never',
-        js: 'never',
-        jsx: 'never',
-      },
-    ],
-    'import/order': [
-      2,
-      {
-        pathGroups: [
-          {
-            pattern: '@/**',
-            group: 'external',
-            position: 'after',
-          },
-        ],
-        // pathGroupsExcludedImportTypes: ['react'],
-      },
-    ],
-    //
+    ...baseRules.common,
+    ...baseRules.typescript,
+    ...baseRules.import,
     //
     // Nest.js
     'class-methods-use-this': 0,
@@ -81,11 +48,5 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 0,
     '@typescript-eslint/explicit-module-boundary-types': 0,
     '@typescript-eslint/no-explicit-any': 0,
-    //
-    //
-    '@typescript-eslint/dot-notation': 0, // for className e.g. `styles['style-name']`
-    '@typescript-eslint/no-unused-vars': 0, // for debug temp vars
-    '@typescript-eslint/naming-convention': 0,
-    '@typescript-eslint/lines-between-class-members': 0,
   },
 };
