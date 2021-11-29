@@ -20,9 +20,9 @@
   "scripts": {
     "changelog-all": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0 -s",
     "npm-publish": "git push --follow-tags origin master && npm publish",
-    "versionup": "standard-version -r patch",
-    "versionup:minor": "standard-version -r minor",
-    "versionup:major": "standard-version -r major",
+    "versionup": "standard-version -r patch -t @qcolate/babel-preset\\@",
+    "versionup:minor": "standard-version -r minor -t @qcolate/babel-preset\\@",
+    "versionup:major": "standard-version -r major -t @qcolate/babel-preset\\@",
     "release": "yarn publish-npm",
     "publish-npm": "npm publish --access public"
   },
