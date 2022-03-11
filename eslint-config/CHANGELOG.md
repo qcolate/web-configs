@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.2](https://github.com/qcolate/web-configs/compare/@qcolate/eslint-config@1.4.1...@qcolate/eslint-config@1.4.2) (2022-03-11)
+
+
+### Refactor
+
+* update deps ([8c8acaa](https://github.com/qcolate/web-configs/commit/8c8acaa383030a55956b5099b8a58b96e5a6c1ca))
+
 ### [1.4.1](https://github.com/qcolate/web-configs/compare/@qcolate/eslint-config@1.2.0...@qcolate/eslint-config@1.4.1) (2021-11-29)
 
 
