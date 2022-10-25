@@ -1,6 +1,6 @@
 # Qcolate Babel Configs
 
-[![VERSION][version-badge-svg]][version-badge-url] [![LICENSE][license-badge-svg]](./LICENSE)
+[![version][npm-img]][npm-url] [![license][license-img]][license-url]
 
 
 ## Installation
@@ -25,10 +25,15 @@ MIT © [Qcolate][qcolate-url]
 
 <!-- link -->
 
+
 [qcolate-url]: https://qcolate.com
 
-[license-badge-svg]: https://img.shields.io/badge/License-MIT-green.svg
 
-[version-badge-svg]: https://badge.fury.io/js/%40qcolate%2Fbabel-preset.svg
+[license-img]: https://img.shields.io/npm/l/@qcolate/babel-preset.svg?style=flat&colorA=000000&colorB=000000
 
-[version-badge-url]: https://badge.fury.io/js/%40qcolate%2Fbabel-preset
+[license-url]: ./LICENSE
+
+
+[npm-img]: https://img.shields.io/npm/v/@qcolate/babel-preset?style=flat&colorA=000000&colorB=000000
+
+[npm-url]: https://www.npmjs.com/package/@qcolate/babel-preset

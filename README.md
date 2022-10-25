@@ -1,7 +1,7 @@
 # Qcolate Web Configs
 
 
-[![license-badge]](./LICENSE)
+[![license-img]][license-url]
 
 ## Description
 
@@ -11,25 +11,31 @@ This repository contains common configurations for building web apps at [Qcolate
 
 This repo is managed as a monorepo that is composed of many npm packages, where each package has its own `README` and documentation describing usage.
 
-### Package Index
+## Package Index
 
-| Name | NPM |
-| ------- | --- |
-| [babel-preset](babel-preset) | [![npm version][babel-version-badge-svg]][babel-version-badge-url] |
-| [eslint-config](eslint-config) | [![npm version][eslint-version-badge-svg]][eslint-version-badge-url] |
+| Name | NPM                                            |
+| ------- |------------------------------------------------|
+| [babel-preset](babel-preset) | [![npm version][babel-npm-img]][babel-npm-url] |
+| [eslint-config](eslint-config) | [![npm version][eslin-npm-img]][eslin-npm-url] |
 
+
+## License
+
+MIT © [Qcolate][qcolate-url]
 
 <!-- link -->
 
 [qcolate-url]: https://qcolate.com
 
+[license-img]: https://img.shields.io/npm/l/@qcolate/eslint-config.svg?style=flat&colorA=000000&colorB=000000
 
-[license-badge]: https://img.shields.io/badge/License-MIT-green.svg
+[license-url]: ./eslint-config/LICENSE
 
-[eslint-version-badge-svg]: https://badge.fury.io/js/%40qcolate%2Feslint-config.svg
 
-[eslint-version-badge-url]: https://badge.fury.io/js/%40qcolate%2Feslint-config
+[eslin-npm-img]: https://img.shields.io/npm/v/@qcolate/eslint-config?style=flat&colorA=000000&colorB=000000
 
-[babel-version-badge-svg]: https://badge.fury.io/js/%40qcolate%2Fbabel-preset.svg
+[eslin-npm-url]: https://www.npmjs.com/package/@qcolate/eslint-config
 
-[babel-version-badge-url]: https://badge.fury.io/js/%40qcolate%2Fbabel-preset
+[babel-npm-img]: https://img.shields.io/npm/v/@qcolate/babel-preset?style=flat&colorA=000000&colorB=000000
+
+[babel-npm-url]: https://www.npmjs.com/package/@qcolate/babel-preset
