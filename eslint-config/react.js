@@ -27,6 +27,8 @@ module.exports = {
   globals: {
     __DEV__: true,
     __PROD__: true,
+    __IS_DEV__: true,
+    __IS_PROD__: true,
   },
   overrides: [
     {

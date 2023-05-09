@@ -19,6 +19,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 0, // for debug temp vars
     '@typescript-eslint/naming-convention': 0,
     '@typescript-eslint/lines-between-class-members': 0,
+    '@typescript-eslint/no-empty-function': 0,
   },
   import: {
     'import/named': 0,
