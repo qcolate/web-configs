@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.4](https://github.com/qcolate/web-configs/compare/@qcolate/eslint-config@1.4.3...@qcolate/eslint-config@1.4.4) (2023-05-09)
+
+
+### Features
+
+* add '@typescript-eslint/no-empty-function': 0 ([3a7b18e](https://github.com/qcolate/web-configs/commit/3a7b18ec5091ddd60d8997f6f349c09a74862a5b))
+
 ### [1.4.3](https://github.com/qcolate/web-configs/compare/@qcolate/eslint-config@1.4.2...@qcolate/eslint-config@1.4.3) (2022-10-25)
 
 
